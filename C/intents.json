@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "tag": "presentacion",
+      "patterns": [
+        "¿Quién eres?",
+        "Quién eres",
+        "¿Cómo te llamas?",
+        "Cómo te llamas",
+        "Hola"
+      ],
+      "responses": [
+        "Soy un chatbot desarrollado con Python y Flask. Mi función es ayudarte a resolver dudas."
+      ]
+    },
+    {
+      "tag": "informacion_institucional",
+      "patterns": [
+        "¿Qué servicios ofrecen?",
+        "Qué servicios ofrecen",
+        "¿Dónde están ubicados?",
+        "Dónde están ubicados"
+      ],
+      "responses": [
+        "Ofrecemos asesoría informática y desarrollo web. Nos encontramos en Tepic, Nayarit."
+      ]
+    },
+    {
+      "tag": "horarios",
+      "patterns": [
+        "¿Cuál es su horario?",
+        "Cuál es su horario",
+        "¿A qué hora abren?",
+        "A qué hora abren"
+      ],
+      "responses": [
+        "Nuestro horario es de lunes a viernes de 8:00 a.m. a 4:00 p.m."
+      ]
+    },
+    {
+      "tag": "contacto",
+      "patterns": [
+        "¿Cuál es su teléfono?",
+        "Cuál es su teléfono",
+        "¿Cómo puedo comunicarme?",
+        "Cómo puedo comunicarme"
+      ],
+      "responses": [
+        "Puedes comunicarte al 311-123-4567. También puedes escribirnos por correo electrónico."
+      ]
+    }
+  ]
+}
